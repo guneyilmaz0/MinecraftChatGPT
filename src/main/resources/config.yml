@@ -1,0 +1,24 @@
+command:
+  no-permission: "&cYou do not have permission to use this command."
+  invalid-type: "&cInvalid type. Valid types: &6{types}"
+  toggle:
+    enabled: "&aChatGPT has connected. Say Hi!"
+    disabled: "&cChatGPT has disconnected."
+  error: "&cAn error occurred while processing your message."
+
+send-messages-to-console: true
+use-default-chat: false
+format:
+  - "&b%player%: &7%message%"
+  - "&bAI -> %player%: &a%message%"
+
+chatgpt:
+  model: "text-davinci-003"
+  temperature: 0.9
+  max-tokens: 150
+  top-p: 1.0
+  frequency-penalty: 0.0
+  presence-penalty: 0.6
+
+# https://beta.openai.com/account/api-keys
+API_KEY: ""
