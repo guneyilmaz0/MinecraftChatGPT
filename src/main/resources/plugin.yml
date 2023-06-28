@@ -1,4 +1,4 @@
 name: MinecraftChatGPT
 api: 1.0.0
-version: 1.0
+version: 1.1
 main: net.swade.chatgpt.Main
