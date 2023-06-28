@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.26</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -40,8 +40,8 @@
         <!-- https://mvnrepository.com/artifact/com.theokanning.openai-gpt3-java/client -->
         <dependency>
             <groupId>com.theokanning.openai-gpt3-java</groupId>
-            <artifactId>client</artifactId>
-            <version>0.8.1</version>
+            <artifactId>service</artifactId>
+            <version>0.12.0</version>
         </dependency>
     </dependencies>
 </project>
